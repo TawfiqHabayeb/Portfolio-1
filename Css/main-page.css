@@ -1,0 +1,301 @@
+/*!   containers   */
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: auto;
+  justify-content: center;
+}
+
+.h-container {
+  width: 80%;
+  margin: auto;
+  overflow: auto;
+}
+
+.p-container {
+  width: 90%;
+  margin: 0;
+  overflow: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: center;
+}
+
+.skills-container {
+  display: flex;
+}
+
+/*!   Images   */
+
+img {
+  height: auto;
+
+  max-width: 80%;
+
+  border: 10px dotted #22a39f;
+
+  border-radius: 4rem;
+
+  margin: 1rem;
+
+  filter: drop-shadow(1rem 1rem 1rem #22a39f);
+}
+
+img:hover {
+  opacity: 30%;
+}
+
+.img-container {
+  width: 80%;
+  margin: 1rem;
+  overflow: auto;
+  justify-content: center;
+}
+
+/*!   Links/hover  */
+
+a {
+  font-family: Lütschine;
+  text-decoration: none;
+  color: #f3efe0;
+  padding-right: 15px;
+}
+
+a:hover {
+  color: #f3efe0;
+}
+
+.section:hover {
+  background-color: #434242;
+}
+
+/*!   Headers   */
+
+h1 {
+  font-family: Lütschine;
+}
+
+h2 {
+  font-family: Lütschine;
+}
+
+h3 {
+  font-family: Lütschine;
+}
+
+h4 {
+  font-family: Lütschine;
+  font-style: italic;
+}
+
+/*!  Paragraphs */
+
+p {
+  width: 80%;
+  margin: auto;
+  overflow: auto;
+}
+
+.about-me p {
+  width: 90%;
+  margin: 0;
+  overflow: auto;
+}
+
+.education p {
+  width: 90%;
+  margin: 0;
+  overflow: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: center;
+}
+
+/*!   NavBar   */
+
+#Main-header {
+  text-align: center;
+  background-color: #222222;
+}
+
+#nav-bar {
+  background-color: #434242;
+  color: #f3efe0;
+}
+
+#nav-bar ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  padding-right: 15px;
+}
+
+#nav-bar li {
+  display: inline;
+  text-align: center;
+  color: #f3efe0;
+}
+
+/*!   Block   */
+
+.block {
+  float: left;
+  width: 50%;
+  box-sizing: border-box;
+  margin: 10px;
+  padding: 10px;
+}
+
+/*!   Section  */
+
+.section {
+  padding: 1rem 8rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+
+  justify-content: center;
+  gap: 2rem;
+}
+
+/*!   Body Headers   */
+
+#Main-header h1 {
+  color: #f3efe0;
+}
+
+.about-me h2 {
+  border-bottom: 6px dotted #22a39f;
+  width: fit-content;
+}
+
+.education h2 {
+  margin-top: 3rem;
+  border-bottom: 6px dotted #22a39f;
+  width: fit-content;
+}
+
+.skills-1 h2 {
+  border-bottom: 6px dotted #22a39f;
+  width: fit-content;
+}
+
+.skills-2 h2 {
+  border-bottom: 6px dotted #22a39f;
+  width: fit-content;
+  border-radius: 2px;
+  padding-left: 15px;
+}
+
+/*!   Body  */
+
+body {
+  background-color: #f3efe0;
+  color: #222222;
+  font-family: sans-serif;
+  line-height: 1.6em;
+  margin: 0;
+}
+
+/*!   Sections   */
+
+.about-me {
+  margin: 10px 10px;
+}
+
+.education {
+  margin: 10px 0px;
+}
+
+/*!  Skills-1  */
+
+.skills-1 {
+  border: 10px solid #434242;
+  border-radius: 20px;
+
+  background-image: url(../images/beige.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  float: left;
+  box-sizing: border-box;
+  width: 50%;
+  flex: content;
+  margin-left: 15px;
+  display: flex;
+}
+
+.skills-1 ul {
+  list-style-type: square;
+}
+
+.skills-1 li::marker {
+  color: #22a39f;
+}
+
+.soft {
+  background-image: url(../images/istockphoto-1037291748-170667a.jpg);
+}
+
+/*!  Skills-2  */
+
+.skills-2 ul {
+  list-style-type: square;
+}
+
+.skills-2 li::marker {
+  color: #434242;
+}
+
+.skills-2 ul {
+  list-style-type: square;
+}
+
+/*! Button   */
+.button {
+  background-color: #434242;
+  color: #f3efe0;
+  padding: 0px 10px;
+  text-decoration: none;
+  font-size: medium;
+  text-align: center;
+  margin-left: 1rem;
+  border-radius: 10px;
+}
+/* ! span    */
+
+span {
+  margin: 0rem 1rem;
+  padding: 1rem;
+  background-color: #434242;
+  color: #f3efe0;
+}
+
+/*!   Footer   */
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  background-color: #22a39f;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.footer-container {
+  margin: auto;
+  width: 70%;
+}
+
+#footer-head {
+  text-align: center;
+  color: #434242;
+}
+
+#footer-h3 {
+  color: #434242;
+  font-style: italic;
+}

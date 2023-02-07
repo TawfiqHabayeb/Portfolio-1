@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="../Css/main-page.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects</title>
+  </head>
+
+  <!-- Header-->
+
+  <header id="Main-header">
+    <div class="container">
+      <h1>Tawfiq Habayeb</h1>
+    </div>
+  </header>
+
+  <!-- NavBar-->
+
+  <nav id="nav-bar">
+    <div class="container">
+      <ul>
+        <li><a href="./index.html#about-me" target="_blank"> About me</a></li>
+
+        <li><a href="./projects.html"> Projects</a></li>
+
+        <li><a href="#contact"> Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!--Body-->
+
+  <body>
+    <!--Section-->
+
+    <section class="about-me" id="x">
+      <div class="container">
+        <h2 class="h-container">Hawitee</h2>
+
+        <p class="p-container">
+          hawaitee is a mobile application that allows citizens to use
+          digitalized documents in their smartpgones instead of a physical ones
+          for identication and sharing purposes.
+        </p>
+
+        <div class="img-container">
+          <img src="../images/software_pic.png" />
+        </div>
+      </div>
+      <div class="education">
+        <h2 class="h-container">IClean</h2>
+
+        <p class="p-container">
+          Iclean is a dedicated application for the teaching staff and the
+          cleaning work in the university of jordan. It is a communication port
+          between teachers and the cleaning crew, it allows the teachers to see
+          which classrooms has been cleaned and the ones that requires to be
+          cleaned, it also allows the teachers to request a cleaner to their
+          office. The cleaners can see the the request that has been made by the
+          teacher and whether to accept it or not.
+        </p>
+
+        <div class="img-container">
+          <button class="button" onclick="showPreviousImage()">Previous</button>
+          <button class="button" onclick="autoSlideShow() ">auto</button>
+          <img src="../images/Iclean main page.png" id="image1" />
+          <button class="button" onclick="showNextImage()">Next</button>
+          <div class="img-number">
+            <p id="span">
+              <span id="currentImage"></span>/<span id="ofimages"> </span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="education">
+        <h2 class="h-container">World-Map</h2>
+
+        <p class="p-container">
+          World-Map is a simple website that allows you to search for any city
+          in the world, if you enter an invalid city it will ask you to enter a
+          valid one. If the city entered exists the map will be shown to the
+          user and the show the desried city from above and all the locations
+          and cities around it.
+        </p>
+
+        <div>
+          <img src="../images/Map.png" />
+          <img src="../images/mapp.png" />
+        </div>
+      </div>
+    </section>
+
+    <!--Footer-->
+
+    <footer class="footer" id="contact">
+      <h1 id="footer-head">Contact</h1>
+
+      <div class="d-flex">
+        <div class="footer-container">
+          <h3>
+            <a href="mailto:tawfeeqmahmoud@gmail.com"> Email:</a>
+          </h3>
+          <h3>
+            <a href="tel:+962790026578"> Phone Number</a>
+          </h3>
+        </div>
+      </div>
+      <div class="footer-container">
+        <h3 id="footer-h3">Social Media:</h3>
+
+        <h2>
+          <a
+            href="https://www.linkedin.com/in/tawfiq-habayeb-9a1409180"
+            target="_blank"
+          >
+            linkedin
+          </a>
+        </h2>
+      </div>
+    </footer>
+    <script src="../Javascript files/script.js"></script>
+  </body>
+</html>
