@@ -78,6 +78,9 @@ h1 {
 
 h2 {
   font-family: Lütschine;
+  font-family: Lütschine;
+  border-bottom: 6px dotted #22a39f;
+  width: fit-content;
 }
 
 h3 {
@@ -251,7 +254,16 @@ body {
   list-style-type: square;
 }
 
+/*!   API */
+
+.API-Fetch h1 {
+  border-bottom: 6px dotted #22a39f;
+
+  width: fit-content;
+}
+
 /*! Button   */
+
 .button {
   background-color: #434242;
   color: #f3efe0;
@@ -262,6 +274,17 @@ body {
   margin-left: 1rem;
   border-radius: 10px;
 }
+.get-text {
+  background-color: #434242;
+  color: #f3efe0;
+  padding: 0px 10px;
+  text-decoration: none;
+  font-size: medium;
+  text-align: center;
+  margin-left: 1rem;
+  border-radius: 10px;
+}
+
 /* ! span    */
 
 span {
@@ -269,6 +292,60 @@ span {
   padding: 1rem;
   background-color: #434242;
   color: #f3efe0;
+}
+/* ! form    */
+
+.button-form {
+  background-color: #434242;
+  color: #f3efe0;
+  padding: 0px 10px;
+  text-decoration: none;
+  font-size: medium;
+  text-align: center;
+  margin-left: 1rem;
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#title-name {
+  color: #434242;
+  margin-right: 0.15rem;
+}
+#title {
+  background-color: #222222;
+  color: #f3efe0;
+  border-radius: 0.25rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+}
+textarea {
+  background-color: #222222;
+  color: #f3efe0;
+  border-radius: 0.25rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+}
+.postStyle {
+  border: 0.25rem solid #434242;
+  margin: 1rem;
+  padding-bottom: 0.25rem;
+  text-align: center;
+  border-radius: 1rem;
+}
+.postTitle {
+  font-family: Lütschine;
+  border-bottom: 6px dotted #22a39f;
+  width: fit-content;
 }
 
 /*!   Footer   */

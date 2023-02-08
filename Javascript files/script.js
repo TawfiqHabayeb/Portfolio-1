@@ -8,11 +8,11 @@ const imageLinks = [
 ];
 let i = 0;
 
-document.getElementById("currentImage").innerText = i + 1;
+document.getElementById("currentImage").innerHTML = i + 1;
 
-document.getElementById("ofimages").innerText = imageLinks.length;
+document.getElementById("ofimages").innerHTML = imageLinks.length;
 
-// ! showNextImage
+// showNextImage
 
 function showNextImage() {
   if (i === imageLinks.length - 1) {
@@ -22,9 +22,10 @@ function showNextImage() {
   }
   image.setAttribute("src", imageLinks[i]);
 
-  document.getElementById("currentImage").innerText = i + 1;
+  document.getElementById("currentImage").innerHTML = i + 1;
 }
 //showPreviousImage
+
 function showPreviousImage() {
   if (i === 0) {
     i = 3;
@@ -32,9 +33,14 @@ function showPreviousImage() {
     i--;
   }
 
+  // show image numebr
+
   image.setAttribute("src", imageLinks[i]);
-  document.getElementById("currentImage").innerText = i + 1;
+  document.getElementById("currentImage").innerHTML = i + 1;
 }
+
+//auto button
+
 let isAutoScroll = false;
 function autoSlideShow() {
   isAutoScroll = !isAutoScroll;
@@ -43,3 +49,4 @@ function autoSlideShow() {
     clearInterval(id);
   }
 }
+
